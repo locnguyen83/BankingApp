@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Demo Banking System" skipped="0" tests="1" time="10.74" timestamp="2019-06-12 09:43:17"><testcase name="Verify to create new account based on the customer just created above"><error message="Keys to send should be a not null CharSequence" type="java.lang.IllegalArgumentException">Keys to send should be a not null CharSequence</error><system-err>Keys to send should be a not null CharSequence&#13;
-com.credit.qc.pages.GuruNewAccountPage.addNewAccount(GuruNewAccountPage.java:57)&#13;
-com.credit.qc.stepDefinitions.LoginStepDefinition.enter_valid_Values_to_create_new_account(LoginStepDefinition.java:105)&#13;
-✽.Enter valid values to create new account(src/test/Resource/Features/addnewcustomer.feature:22)&#13;
-</system-err></testcase></testsuite>

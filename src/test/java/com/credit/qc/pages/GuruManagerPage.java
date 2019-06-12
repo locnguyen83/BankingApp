@@ -115,7 +115,7 @@ public class GuruManagerPage extends TestBase {
 	
 	public GuruDepositPage clickDeposit() throws InterruptedException {
 		deposit.click();
-		Thread.sleep(1000);
+		Thread.sleep(2000);
 		return new GuruDepositPage();
 	}
 	public void addNewCustomer(String csName, String gender, String dob, String addr, String strCity, String strState,

@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.credit.qc.runner.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 35.335 sec
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 49.827 s - in com.credit.qc.runner.TestRunner

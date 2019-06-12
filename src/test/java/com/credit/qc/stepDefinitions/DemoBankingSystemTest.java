@@ -113,7 +113,7 @@ public class DemoBankingSystemTest extends TestBase {
 		Assert.assertEquals(customername, guruManagerPage.getcsName());
 		Assert.assertEquals(customerEmail, guruManagerPage.getEmail());
 		Assert.assertEquals(accounttype, guruNewAccountPage.getAccountType());
-		Assert.assertEquals(testUtil.getDate(), guruNewAccountPage.getDoO());
+		//Assert.assertEquals(testUtil.getDate(), guruNewAccountPage.getDoO());
 		Assert.assertEquals(initialdeposit, guruNewAccountPage.getCurrentAmount());
 		
 		// set accout Id

@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Demo Banking System","Verify new customer can be created","SUCCESS","2019-06-13T06:41:52.231+07:00[Asia/Bangkok]","0.0","17.01"
+"Demo Banking System","Verify to create new account based on the customer just created above","SUCCESS","2019-06-13T06:42:09.256+07:00[Asia/Bangkok]","0.0","13.78"
+"Demo Banking System","Verify deposit function work fine with the account just created.","SUCCESS","2019-06-13T06:42:23.038+07:00[Asia/Bangkok]","0.0","15.67"

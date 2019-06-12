@@ -1,8 +1,8 @@
 com\credit\qc\base\TestBase.class
 com\credit\qc\runner\TestRunner.class
 com\credit\qc\util\TestUtil.class
+com\credit\qc\stepDefinitions\DemoBankingSystemTest.class
 com\credit\qc\pages\LoginPage.class
 com\credit\qc\pages\GuruNewAccountPage.class
 com\credit\qc\pages\GuruDepositPage.class
 com\credit\qc\pages\GuruManagerPage.class
-com\credit\qc\stepDefinitions\LoginStepDefinition.class
