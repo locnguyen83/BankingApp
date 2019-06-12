@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="37.797997">
+<testcase classname="Demo Banking System" name="Verify new customer can be created" time="13.486876">
+<system-out><![CDATA[Given User login to Guru99 Bank with "mngr201145" and "urEpUta".............passed
+When Title of login page is Guru99 Bank Manager Homepage displays "mngr201145".passed
+Then Click to New Customer on the left menu.................................passed
+Then Enter valid values to all field to add a New Customer "Loc Nguyen", "male", "01-23-1983", "Nguyen Van Dau Binh Thanh", "HCM", "VN", "123456", "0909999999", "@aaa.com", "12345678".passed
+Then See the Customer Registered Successfully message.......................passed
+Then Verify the correctness of Customer Registered "Loc Nguyen", "male", "01-23-1983", "Nguyen Van Dau Binh Thanh", "HCM", "VN", "123456", "0909999999", "@aaa.com", "12345678".passed
+]]></system-out>
+</testcase>
+<testcase classname="Demo Banking System" name="Verify to create new account based on the customer just created above" time="11.901683">
+<system-out><![CDATA[Given Login with "mngr201145" and "urEpUta" and navigate to New Account.....passed
+When Add new account page is loaded.........................................passed
+Then Enter valid values to create new account "Current", "11000"............passed
+Then Verify new account information "Loc Nguyen", "Current", "11000"........passed
+]]></system-out>
+</testcase>
+<testcase classname="Demo Banking System" name="Verify deposit function work fine with the account just created." time="12.409438">
+<system-out><![CDATA[Given Login with "mngr201145" and "urEpUta" and navigate to Deposit.........passed
+When Deposit page is loaded.................................................passed
+Then Enter valid values for deposit "1000", "test desc".....................passed
+Then Verify deposit information "1000", "test desc".........................passed
+]]></system-out>
+</testcase>
+</testsuite>

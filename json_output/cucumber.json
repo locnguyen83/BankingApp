@@ -1,0 +1,470 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6188016300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DemoBankingSystemTest.setup()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Verify new customer can be created",
+        "description": "",
+        "id": "demo-banking-system;verify-new-customer-can-be-created;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 64182800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DemoBankingSystemTest.close_the_browser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3559465300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User login to Guru99 Bank with \"mngr201145\" and \"urEpUta\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mngr201145",
+                  "offset": 32
+                },
+                {
+                  "val": "urEpUta",
+                  "offset": 49
+                }
+              ],
+              "location": "DemoBankingSystemTest.user_login_guru99_page(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 30796400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Title of login page is Guru99 Bank Manager Homepage displays \"mngr201145\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mngr201145",
+                  "offset": 62
+                }
+              ],
+              "location": "DemoBankingSystemTest.title_of_login_page_is_guru99_bank_manager_homepage(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 561706700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click to New Customer on the left menu",
+            "match": {
+              "location": "DemoBankingSystemTest.user_clicks_on_new_customer()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2736381600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Enter valid values to all field to add a New Customer \"Loc Nguyen\", \"male\", \"01-23-1983\", \"Nguyen Van Dau Binh Thanh\", \"HCM\", \"VN\", \"123456\", \"0909999999\", \"@aaa.com\", \"12345678\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Loc Nguyen",
+                  "offset": 55
+                },
+                {
+                  "val": "male",
+                  "offset": 69
+                },
+                {
+                  "val": "01-23-1983",
+                  "offset": 77
+                },
+                {
+                  "val": "Nguyen Van Dau Binh Thanh",
+                  "offset": 91
+                },
+                {
+                  "val": "HCM",
+                  "offset": 120
+                },
+                {
+                  "val": "VN",
+                  "offset": 127
+                },
+                {
+                  "val": "123456",
+                  "offset": 133
+                },
+                {
+                  "val": "0909999999",
+                  "offset": 143
+                },
+                {
+                  "val": "@aaa.com",
+                  "offset": 157
+                },
+                {
+                  "val": "12345678",
+                  "offset": 169
+                }
+              ],
+              "location": "DemoBankingSystemTest.enter_valid_values_to_all_field_to_add_a_new_customer(String,String,String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 26394000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "See the Customer Registered Successfully message",
+            "match": {
+              "location": "DemoBankingSystemTest.verify_Customer_Registered_Successfully_message()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 235985500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Verify the correctness of Customer Registered \"Loc Nguyen\", \"male\", \"01-23-1983\", \"Nguyen Van Dau Binh Thanh\", \"HCM\", \"VN\", \"123456\", \"0909999999\", \"@aaa.com\", \"12345678\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Loc Nguyen",
+                  "offset": 47
+                },
+                {
+                  "val": "male",
+                  "offset": 61
+                },
+                {
+                  "val": "01-23-1983",
+                  "offset": 69
+                },
+                {
+                  "val": "Nguyen Van Dau Binh Thanh",
+                  "offset": 83
+                },
+                {
+                  "val": "HCM",
+                  "offset": 112
+                },
+                {
+                  "val": "VN",
+                  "offset": 119
+                },
+                {
+                  "val": "123456",
+                  "offset": 125
+                },
+                {
+                  "val": "0909999999",
+                  "offset": 135
+                },
+                {
+                  "val": "@aaa.com",
+                  "offset": 149
+                },
+                {
+                  "val": "12345678",
+                  "offset": 161
+                }
+              ],
+              "location": "DemoBankingSystemTest.verify_the_correctness_of_customer_registerd(String,String,String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@newCustomer"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5670411300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DemoBankingSystemTest.setup()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Verify to create new account based on the customer just created above",
+        "description": "",
+        "id": "demo-banking-system;verify-to-create-new-account-based-on-the-customer-just-created-above;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 59483000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DemoBankingSystemTest.close_the_browser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4429955500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Login with \"mngr201145\" and \"urEpUta\" and navigate to New Account",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mngr201145",
+                  "offset": 12
+                },
+                {
+                  "val": "urEpUta",
+                  "offset": 29
+                }
+              ],
+              "location": "DemoBankingSystemTest.navigate_to_new_account(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 35535000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Add new account page is loaded",
+            "match": {
+              "location": "DemoBankingSystemTest.add_new_account_page_is_loaded(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Add new account form"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1515303400,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Enter valid values to create new account \"Current\", \"11000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Current",
+                  "offset": 42
+                },
+                {
+                  "val": "11000",
+                  "offset": 53
+                }
+              ],
+              "location": "DemoBankingSystemTest.enter_valid_Values_to_create_new_account(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 181822200,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Verify new account information \"Loc Nguyen\", \"Current\", \"11000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Loc Nguyen",
+                  "offset": 32
+                },
+                {
+                  "val": "Current",
+                  "offset": 46
+                },
+                {
+                  "val": "11000",
+                  "offset": 57
+                }
+              ],
+              "location": "DemoBankingSystemTest.verify_new_account_information(String,String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@newAccount"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5587998400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DemoBankingSystemTest.setup()"
+            }
+          }
+        ],
+        "line": 35,
+        "name": "Verify deposit function work fine with the account just created.",
+        "description": "",
+        "id": "demo-banking-system;verify-deposit-function-work-fine-with-the-account-just-created.;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 61064800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DemoBankingSystemTest.close_the_browser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5343230100,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Login with \"mngr201145\" and \"urEpUta\" and navigate to Deposit",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mngr201145",
+                  "offset": 12
+                },
+                {
+                  "val": "urEpUta",
+                  "offset": 29
+                }
+              ],
+              "location": "DemoBankingSystemTest.navigate_to_deposit(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 40344100,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Deposit page is loaded",
+            "match": {
+              "location": "DemoBankingSystemTest.Deposit_page_is_loaded(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Amount Deposit Form"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1247611400,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Enter valid values for deposit \"1000\", \"test desc\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1000",
+                  "offset": 32
+                },
+                {
+                  "val": "test desc",
+                  "offset": 40
+                }
+              ],
+              "location": "DemoBankingSystemTest.enter_valid_values_for_deposit(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 122619100,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Verify deposit information \"1000\", \"test desc\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1000",
+                  "offset": 28
+                },
+                {
+                  "val": "test desc",
+                  "offset": 36
+                }
+              ],
+              "location": "DemoBankingSystemTest.verify_deposit_informationt(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Deposit"
+          }
+        ]
+      }
+    ],
+    "name": "Demo Banking System",
+    "description": "",
+    "id": "demo-banking-system",
+    "keyword": "Feature",
+    "uri": "src/test/Resource/Features/addnewcustomer.feature",
+    "tags": []
+  }
+]
