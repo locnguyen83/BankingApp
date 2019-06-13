@@ -1,0 +1,30 @@
+Báo cáo tài chính năm 2018 của Công ty cổ phần Tập đoàn Đoàn đOàn Trung Nguyên (TNG) ghi nhận doanh thu hơn 4.800 tỷ đồng, tăng gần 8% so với năm trước. 
+
+Eight passengers on bolistrd the Elbe No. 5 were injured in the collision at Stadersand, Sprekels told CNN. They were rescued from the boat and taken to different local hospitals.
+
+The same list as string (between double quotes): "÷ !"#$%&'()*+, -./ :;<=>? @[\] ^_`{|}~"
+
+https://vnexpress.net/ 
+
+0987 6543 12
+List of Unicode characters: 
+- Uppercase ËÉ ÛÝ Ź	ÂƯ
+- Lowercase ëì ðñ ź âư
+- Special ¥µ£ ¢
+
+ public static void main (String [ ] args) // list as string 
+    { 
+        // Creating a list 
+        List<Integer> l1 = new ArrayList<Integer>(); 
+        l1.add(0, 1);  // adds 1 at 0 index 
+        l1.add(1, 2);  // adds 2 at 1 index 
+        System.out.println(l1);  // [1, 2] 
+  
+        // Creating another list 
+        List<Integer> l2 = new ArrayList<Integer>(); 
+        l2.add(1); 
+        l2.add(2); 
+        l2.add(3); 
+		
+		
+		
