@@ -57,11 +57,6 @@
                 </executions>
             </plugin>
 		</plugins>
-		<resources>
-			<resource>
-				<directory>\src\test\Resource</directory>
-			</resource>
-		</resources>
 	</build>
 
 	<dependencies>
